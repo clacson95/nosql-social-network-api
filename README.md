@@ -28,7 +28,7 @@ Then,
 ## Installation
 1. Ensure node.js is installed. 
 3. Create a `package.json` file by entering the `npm init -y` command in the terminal. 
-4. Use the following command to run the install script, and install required dependencies: `npm run install`
+4. Install dependencies
 
 ## License
 
