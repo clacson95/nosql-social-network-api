@@ -1,11 +1,10 @@
 # nosql-social-network-api [![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-This
+This application is a back-end API to be used for a social network website. It utilizes Express, MongoDB, Mongoose, Moment.js, and Insomnia. 
 
 ## Table of Contents
 * [Demo](#demo)
-* [Screenshots](#screenshots)
 * [Usage](#usage)
 * [Installation](#installation)
 * [License](#license)
@@ -13,9 +12,7 @@ This
 * [Questions](#questions)
 
 ## Demo
-### [Click here to watch a walkthrough video!]()
-
-## Screenshots
+### [Click here to watch a walkthrough video!](https://youtu.be/wmVHiRCeMTE)
 
 ## Usage
 
@@ -23,12 +20,20 @@ To use this back-end application, fork the repository, clone the repository, or 
 
 Next, follow the Installation instructions below.
 
-Then, 
+Then enter `node server.js` in the terminal to start the application's server.
+
+You can then use something like [Insomnia](https://insomnia.rest/products/insomnia) to run tests or make changes to the database.
 
 ## Installation
 1. Ensure node.js is installed. 
 3. Create a `package.json` file by entering the `npm init -y` command in the terminal. 
-4. Install dependencies
+4. Install dependencies with the terminal command `npm install` or `npm i`
+5. create the sql schema
+    * enter `mysql -u root -p` in the terminal
+    * enter your password when prompted
+    * enter `source db/schema.sql` in the terminal
+    * enter `exit` in the terminal to exit mysql
+6. enter `npm run seed` in the terminal to seed the database
 
 ## License
 
